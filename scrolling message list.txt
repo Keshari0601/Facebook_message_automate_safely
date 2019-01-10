@@ -1,0 +1,9 @@
+function fn()
+{
+
+document.getElementsByClassName("_19hf")[0].getElementsByTagName("a")[0].click();
+setTimeout(fn, 3000);
+
+
+}
+fn();

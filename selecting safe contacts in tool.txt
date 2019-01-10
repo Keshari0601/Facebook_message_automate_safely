@@ -1,0 +1,21 @@
+var c="  put all your available here   ";
+var z=document.getElementsByTagName("tr").length-4;
+var i=0;
+alert(z);
+while(i<z)
+{
+
+var z=document.getElementsByClassName("material-switch")[i].innerHTML;
+z=z.substring(z.indexOf("data-uid=")+10,z.indexOf("data-uid=")+25);
+
+
+
+if(c.indexOf(z)>-1)
+{
+document.getElementsByClassName("label-success")[i].click();
+}
+
+i++;
+
+}
+
